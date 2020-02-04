@@ -17,21 +17,21 @@
     <nav role="navigation">
       <img src="Images/Chibi.png" class="chibi" alt="profilePic">
       <div class="quickLinks">
-        <a href="/html/">About</a> |
-        <a href="/css/">Projects</a> |
-        <a href="/js/">Contact</a> |
+        <a href="#part1">About</a> |
+        <a href="#part2">Projects</a> |
+        <a href="#part3">Contact</a> |
       </div>
     </nav>
     <main role="main">
       <header role="banner">
         <section class="firstPage">
           <h1 class="headline"> Hi There, My Name is Huan. </h1>
-          <h4 class="subline">It is Pronounced Exactly Like Mexican Juan, Except That I Have the H :) </h4>
+          <h4 class="subline">It is pronounced exactly like mexican Juan, except that I gave the H :) </h4>
           <h6 class="subline"> And I am a Web Developer </h6>
         </section>
       </header>
 
-      <section class="aboutMe">
+      <section id="part1" class="aboutMe">
         <h2> About Me </h2>
 
           <img src="Images/profile.png" alt="profile" class="profile">
@@ -49,13 +49,29 @@
           <p class="bio1"> I recently graduated in Mathematics & Computer Science at UCLA and Web Development Bootcamp at Thinkful. It could be said that the world of coding and programming have changed my life significantly. I appreciate the flow of logical ideas and the discipline that computer science brought me. I am amazed that there always exist small or big improvements we can apply to make our programs better. The technology is constantly developing which definitely makes the life of a programmer more exciting. </p>
 
           <p class="bio"> I have learned to enjoy and appreciate even the smallest thing in life from eating a delicious cookie, figuring out how to fix bugs in my and others' programs, to bigger things like all the opportunities I had and friends, families around me. Besides coding, I enjoy playing sports such as soccer, tennis, badminton, swimming and outdoor/indoor activities like hiking, listening to music, watching movies, cooking, working out, jogging. Oh and I don't usually say it, but pets often soften me up so much that I just act ridiculously around them. </p>
+
+          <ul class="blogLinks"> 
+            <h4> My Blogs </h4>
+            <a href="https://huantnguyen.github.io/firstBlog/"> My experience with a scammer </a>
+            <a href="https://huantnguyen.github.io/secondBlog/"> My near death experiences </a>
+          </ul>
       
       
       </section>
-      <section class="projects">
+
+
+      <section id="part2" class="projects">
         <h2> Projects </h2>
 
-        <img src="Images/quizShot.png" alt="projectPicture" class="projectPicture">
+        <div class="hero">
+          <img src="Images/quizShot.png" alt="projectPicture" class="projectPicture">
+        </div>
+
+        <div class="thumbnails">
+          <a class="thumbnail" href="javascript:void();"><img src="Images/quizShot.png" alt="thumbnails"/> </a>
+          <!--<a class="thumbnail" href="javascript:void();"><img src="Images/quizShot2.png" alt="thumbnails"/> </a>
+          <a class="thumbnail" href="javascript:void();"><img src="Images/quizShot3.png" alt="thumbnails"/> </a>-->
+        </div>
 
         <p class="description"> This is my very first dynamic, well-architected and accessible app in web development. I developed the page with the theme of my favorite sport, it is called the ultimate soccer challenge quiz. The quiz put the user in situations where they have to decide what the best action is to help their team achieve victory. </p>
         
@@ -64,7 +80,7 @@
 
     </main>
 
-    <footer role="contactInfo"> 
+    <footer id="part3" role="contactInfo"> 
       <h3> Contact Info </h3>
 
       <a href="https://www.facebook.com/tran.huan.142" class="fa fa-facebook"></a>
@@ -80,7 +96,7 @@
     
     </footer>
 
-
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

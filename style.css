@@ -97,6 +97,22 @@ h2 {
   margin-bottom: 15px;
 }
 
+.blogLinks > h4 {
+  display: block;
+}
+
+.blogLinks > a {
+  color:#45A29E;
+  list-style: none;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.blogLinks > a:visited
+{
+   color: #45A29E;
+}
+
 .projectPicture {
   width: 800px;
   height: 316px;
@@ -111,6 +127,20 @@ h2 {
   color: white;
   padding-bottom: 140px;
   padding-top: 50px;
+}
+
+.thumbnail {
+  display: inline-block;
+  cursor: pointer;
+  height: 60px;
+}
+
+a.thumbnail:hover {
+  box-shadow: 5px 5px 5px gray;
+}
+
+.thumbnail img {
+  max-height: 100%;
 }
 
 footer {
