@@ -3,11 +3,12 @@
 }
 
 body {
-  font-family: "Arial", sans-serif;
-  font-size: 20px;
+  font-family: "Space Mono", mono space;
+  font-size: 22px;
   color: black;
   text-align: center;
   line-height: 2;
+  background-image: url("Images/background2.png");
 }
 
 nav {
@@ -16,27 +17,142 @@ nav {
   left: 0;
   right: 0;
   z-index: 10;
-  background-color: white;
+  color: #66FCF1;
+  height: 100px;
 }
 
 nav > img {
   position: absolute;
-  left: 10%;
-  border-radius: 25%;
-  background-color: lightslategray;
+  top: 18%;
+  left: 20%;
+  width: 50px;
+  border-radius: 50%;
+  background-color: whitesmoke;
 }
 
-header, .projects {
+.quickLinks > a:link
+{
+   color: #66FCF1;
+}
+.quickLinks > a:visited
+{
+   color: #66FCF1;
+}
+
+.quickLinks {
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 700px;
+}
+
+header {
+  display: flex;
   padding: 12% 0;
-  background-color: lightgray;
+  color: #66FCF1;
+  font-family: "Dancing Script", cursive;;
+  height: 790px;
+}
+
+.firstPage {
+  margin: auto;
+}
+
+.firstPage > h1 {
+  font-size: 60px;
+}
+
+.subline {
+  font-family: "Ubuntu", sans-serif;
 }
 
 .aboutMe {
-  background-color: grey;
-  padding: 12%;
+  position: relative;
+  background-color: #C5C6C7;
+  padding: 2%;
+  line-height: 2.5;
+}
+
+.profile {
+  width: 15%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.bio1 {
+  padding-bottom: 60px;
+}
+
+h2 {
+  color: white;
+  font-size: 50px;
+}
+
+.skills > li {
+  list-style: none;
+  display: inline-block;
+  border: solid 2px black;
+  color:#45A29E;
+  padding: 3px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.projectPicture {
+  width: 800px;
+  height: 316px;
+  border: 1px #C5C6C7 solid;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top:30px;
+  margin-bottom: 20px;
+}
+
+.description {
+  color: white;
+  padding-bottom: 140px;
+  padding-top: 50px;
 }
 
 footer {
   padding: 1% 0;
   background-color: white;
+  color: #1F2833;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
 }
