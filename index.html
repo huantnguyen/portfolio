@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,7 +14,7 @@
 
 
   <body>
-    <nav role="navigation">
+    <nav>
       <img src="Images/Chibi.png" class="chibi" alt="profilePic">
       <div class="quickLinks">
         <a href="#part1">About</a> |
@@ -22,8 +22,8 @@
         <a href="#part3">Contact</a> |
       </div>
     </nav>
-    <main role="main">
-      <header role="banner">
+    <main>
+      <header>
         <section class="firstPage">
           <h1 class="headline"> Hi There, My Name is Huan. </h1>
           <h4 class="subline">It is pronounced exactly like mexican Juan, except that I gave the H :) </h4>
@@ -50,10 +50,11 @@
 
           <p class="bio"> I have learned to enjoy and appreciate even the smallest thing in life from eating a delicious cookie, figuring out how to fix bugs in my and others' programs, to bigger things like all the opportunities I had and friends, families around me. Besides coding, I enjoy playing sports such as soccer, tennis, badminton, swimming and outdoor/indoor activities like hiking, listening to music, watching movies, cooking, working out, jogging. Oh and I don't usually say it, but pets often soften me up so much that I just act ridiculously around them. </p>
 
-          <ul class="blogLinks"> 
-            <h4> My Blogs </h4>
-            <a href="https://huantnguyen.github.io/firstBlog/"> My experience with a scammer </a>
-            <a href="https://huantnguyen.github.io/secondBlog/"> My near death experiences </a>
+
+          <b> My Blogs </b>
+          <ul> 
+            <li class="blogLinks"><a href="https://huantnguyen.github.io/firstBlog/"> My experience with a scammer </a> </li>
+            <li class="blogLinks"><a href="https://huantnguyen.github.io/secondBlog/"> My near death experiences </a> </li>
           </ul>
       
       
@@ -68,19 +69,25 @@
         </div>
 
         <div class="thumbnails">
-          <a class="thumbnail" href="javascript:void();"><img src="Images/quizShot.png" alt="thumbnails"/> </a>
-          <!--<a class="thumbnail" href="javascript:void();"><img src="Images/quizShot2.png" alt="thumbnails"/> </a>
-          <a class="thumbnail" href="javascript:void();"><img src="Images/quizShot3.png" alt="thumbnails"/> </a>-->
+          <a class="thumbnail" href="javascript:void();"><img src="Images/quizShot.png" alt="thumbnail"/> </a>
+          <a class="thumbnail" href="javascript:void();"><img src="Images/quizShot2.png" alt="thumbnail"/> </a>
+          <a class="thumbnail" href="javascript:void();"><img src="Images/quizShot3.png" alt="thumbnail"/> </a>
         </div>
 
-        <p class="description"> This is my very first dynamic, well-architected and accessible app in web development. I developed the page with the theme of my favorite sport, it is called the ultimate soccer challenge quiz. The quiz put the user in situations where they have to decide what the best action is to help their team achieve victory. </p>
+        <p class="description"> This is my very first dynamic, well-architected and accessible app in web development using HTML5, CSS3, and JavaScript with jQuery library. I developed the page with the theme of my favorite sport, it is called the ultimate soccer challenge quiz. The quiz put the user in situations where they have to decide what the best action is to help their team achieve victory. </p>
+
+
+        <ul> 
+          <li class="liveLinks"><a href="https://github.com/huantnguyen/soccerChallengeQuiz"> Github </a> </li>
+          <li class="liveLinks"><a href="https://huantnguyen.github.io/soccerChallengeQuiz/"> Demo </a> </li>
+        </ul>
         
       </section>
 
 
     </main>
 
-    <footer id="part3" role="contactInfo"> 
+    <footer id="part3"> 
       <h3> Contact Info </h3>
 
       <a href="https://www.facebook.com/tran.huan.142" class="fa fa-facebook"></a>
@@ -89,14 +96,9 @@
       <a href="https://www.instagram.com/huantng/" class="fa fa-instagram"></a>
       <a href="https://github.com/huantnguyen" class="fa fa-github"></a>
       
-      
-      
-    
-    
-    
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

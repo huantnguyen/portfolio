@@ -97,14 +97,17 @@ h2 {
   margin-bottom: 15px;
 }
 
-.blogLinks > h4 {
+b {
   display: block;
+}
+
+.blogLinks {
+  list-style: none;
+  display: inline-block;
 }
 
 .blogLinks > a {
   color:#45A29E;
-  list-style: none;
-  display: inline-block;
   font-size: 18px;
 }
 
@@ -115,7 +118,7 @@ h2 {
 
 .projectPicture {
   width: 800px;
-  height: 316px;
+  height: 360px;
   border: 1px #C5C6C7 solid;
   padding: 15px;
   border-radius: 5px;
@@ -125,7 +128,7 @@ h2 {
 
 .description {
   color: white;
-  padding-bottom: 140px;
+  padding-bottom: 20px;
   padding-top: 50px;
 }
 
@@ -135,12 +138,30 @@ h2 {
   height: 60px;
 }
 
+
 a.thumbnail:hover {
   box-shadow: 5px 5px 5px gray;
 }
 
 .thumbnail img {
   max-height: 100%;
+}
+
+.liveLinks {
+  list-style: none;
+  display: inline-block;
+}
+
+.liveLinks > a {
+  color:#45A29E;
+  font-size: 18px;
+  margin-bottom: 40px;
+  margin-right: 40px;
+}
+
+.liveLinks > a:visited
+{
+   color: #45A29E;
 }
 
 footer {
